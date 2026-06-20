@@ -1,0 +1,29 @@
+# 데이터 — git에 절대 커밋 금지 (대용량 바이너리는 오브젝트 스토리지로)
+*.zip
+*.tar
+*.tar.gz
+*.part
+data/
+datasets/
+downloads/
+raw/
+*.jpg
+*.jpeg
+*.png
+
+# 실행 로그
+agents/runs/*.jsonl
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 환경/시크릿
+.env
+*.key
+*.pem
+
+# OS
+.DS_Store
