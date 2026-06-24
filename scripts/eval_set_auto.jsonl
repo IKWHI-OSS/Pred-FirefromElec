@@ -1,0 +1,120 @@
+{"qid": "auto_0000", "query": "산불 확산으로 위협받는 주요 시설물은 무엇입니까?", "gold_id": "YW20220304_T_P0076_T107.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0001", "query": "대피소 설치 → 운영 → 폐쇄까지의 행정 처리 절차는 어떻게 됩니까?", "gold_id": "HP20230403_T_P0429_T014.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0002", "query": "물 소화와 지연제 살포 중 현재 습도에서 효과적인 것은 무엇입니까?", "gold_id": "SC20250321_T_P0015_T054.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0003", "query": "인접 시군 지원 요청과 중앙 지원 요청 중 어느 것이 신속합니까?", "gold_id": "UJ20220304_T_P0215_T018.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0004", "query": "현재 기상 조건에서 헬기 운항 가능 시간은 얼마나 됩니까?", "gold_id": "SJ20230316_T_P0005_T048.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0005", "query": "산불이 도심지까지 확산된다면 대응 체계는 어떻게 전환됩니까?", "gold_id": "HP20230403_T_P0411_T007.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0006", "query": "구조대가 우리 동네까지 올 수 있는 상황입니까?", "gold_id": "BH20220405_T_P0019_T063.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0007", "query": "이재민 발생 예상 규모와 필요 지원 물자는 얼마나 됩니까?", "gold_id": "GN20220304_T_P0034_T019.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0008", "query": "만약 진화 헬기를 3대 더 투입한다면 진압 시간이 얼마나 단축됩니까?", "gold_id": "GN20220305_T_P0078_T048.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0009", "query": "연료 습도가 10% 이하로 떨어지면 확산 속도가 얼마나 증가합니까?", "gold_id": "HP20230403_T_P0417_T029.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0010", "query": "산 아래 우리 집과 산 중턱 친척집 중 어디가 더 위험합니까?", "gold_id": "BH20220405_T_P0007_T005.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0011", "query": "완벽한 대피 준비와 즉시 대피 중 무엇을 선택해야 합니까?", "gold_id": "KS20230402_T_P0402_T040.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0012", "query": "산불이 도심지까지 확산된다면 대응 체계는 어떻게 전환됩니까?", "gold_id": "GN20220305_T_P0089_T065.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0013", "query": "1층과 고층 중 어느 쪽이 연기 피해가 더 심합니까?", "gold_id": "GR20220225_T_P0026_T003.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0014", "query": "신속한 대피와 충분한 대피 물품 준비 중 어느 것을 우선해야 합니까?", "gold_id": "GN20220304_T_P0028_T018.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
+{"qid": "auto_0015", "query": "연료 습도가 10% 이하로 떨어지면 확산 속도가 얼마나 증가합니까?", "gold_id": "UJ20220304_T_P0063_T127.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0016", "query": "산불 확산으로 위협받는 주요 시설물은 무엇입니까?", "gold_id": "YG20220410_T_P0008_T023.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0017", "query": "현재 진화 속도로 6시간 내 진압 완료 가능성은 얼마입니까?", "gold_id": "UJ20220304_T_P0004_T018.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0018", "query": "거동이 불편한 가족이 있는데 특별 지원을 받을 수 있습니까?", "gold_id": "GR20220412_T_P0017_T036.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0019", "query": "현재 화선의 진행 속도는 시간당 몇 헥타르입니까?", "gold_id": "GN20220305_T_P0143_T101.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0020", "query": "현재 바람 방향으로 볼 때 2시간 내에 주거지역에 산불이 도달할 확률은 얼마나 됩니까?", "gold_id": "KS20230402_T_P0108_T007.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0021", "query": "지형과 기상 조건을 고려하면 재발화 위험은 얼마나 됩니까?", "gold_id": "UJ20250325_T_P0062_T007.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0022", "query": "초기 → 중기 → 장기 대응의 각 단계별 중점 사항은 무엇입니까?", "gold_id": "GN20220305_T_P0114_T153.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0023", "query": "현재 대응 수준 유지와 상위 단계 격상 중 무엇이 적절합니까?", "gold_id": "KS20230402_T_P0408_T002.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0024", "query": "지연제를 살포한다면 확산 속도가 얼마나 감소합니까?", "gold_id": "GW20230402_T_P0082_T024.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0025", "query": "현재 상황이 3단계 재난으로 확대될 가능성은 얼마입니까?", "gold_id": "HP20230403_T_P0458_T026.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0026", "query": "진화 상황, 기상 변화, 지형을 종합한 구조 작업 위험도는 어느 정도입니까?", "gold_id": "UJ20220304_T_P0257_T196.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0027", "query": "헬기 구조와 지상 구조 중 현재 상황에서 더 효율적인 방법은 무엇입니까?", "gold_id": "UJ20220304_T_P0006_T174.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0028", "query": "취약계층 대피 → 일반 주민 대피 → 가축 이동의 순서별 소요 시간은 어떻게 됩니까?", "gold_id": "YW20220304_T_P0046_T138.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0029", "query": "지금 당장 대피해야 하나요 아니면 좀 더 상황을 지켜봐도 될까요?", "gold_id": "GN20220305_T_P0088_T128.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
+{"qid": "auto_0030", "query": "주요 관광지가 피해를 입을 가능성은 얼마나 됩니까?", "gold_id": "GN20220305_T_P0052_T113.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0031", "query": "회사에 있는데 집으로 가서 가족을 챙길까요 아니면 대피소에서 만날까요?", "gold_id": "UJ20220304_T_P0097_T007.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0032", "query": "반려동물과 함께 대피할 수 있나요 아니면 따로 맡겨야 하나요?", "gold_id": "SC20250321_T_P0026_T202.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0033", "query": "인접 시군 지원 요청과 중앙 지원 요청 중 어느 것이 신속합니까?", "gold_id": "UJ20220304_T_P0256_T129.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0034", "query": "초기 → 중기 → 장기 대응의 각 단계별 중점 사항은 무엇입니까?", "gold_id": "UJ20220304_T_P0131_T184.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0035", "query": "제한된 구조 인력으로 요양원과 어린이집 중 어디를 우선 대피시켜야 합니까?", "gold_id": "KS20230402_T_P0279_T020.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0036", "query": "산불이 우리 집까지 오는데 얼마나 걸릴 것으로 예상됩니까?", "gold_id": "UJ20220304_T_P0051_T001.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0037", "query": "직접 진압과 간접 진압 중 현재 상황에 적합한 방법은 무엇입니까?", "gold_id": "KS20230402_T_P0362_T031.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0038", "query": "만약 타 지역에서 동시 산불이 발생한다면 자원 재배치 방안은 무엇입니까?", "gold_id": "KH20250322_T_P0001_T001.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0039", "query": "진압된 지역에서 다시 불이 날 가능성은 얼마나 됩니까?", "gold_id": "UJ20220304_T_P0237_T167.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0040", "query": "1층과 고층 중 어느 쪽이 연기 피해가 더 심합니까?", "gold_id": "GN20220305_T_P0102_T044.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0041", "query": "현재 진화 역량과 확산 속도를 고려한 진압 완료 예상 시간은 언제입니까?", "gold_id": "KS20230402_T_P0249_T005.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0042", "query": "현재 산불이 가장 가까운 민가까지 도달하는 예상 시간은 얼마입니까?", "gold_id": "UJ20220304_T_P0013_T133.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0043", "query": "현재 상황에서 가장 우선적으로 구조해야 할 대상은 누구입니까?", "gold_id": "GN20220305_T_P0147_T097.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0044", "query": "주풍 방향 차단과 측면 확산 방지 중 인력을 어디에 집중해야 합니까?", "gold_id": "YW20220304_T_P0086_T050.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
+{"qid": "auto_0045", "query": "대피로에 산불이 번진다면 대체 구조 경로는 어디입니까?", "gold_id": "GN20220305_T_P0125_T095.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0046", "query": "풍속이 15m/s로 증가한다면 북쪽 마을 진입로 통과가 안전합니까?", "gold_id": "US20250322_T_P0004_T086.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0047", "query": "공식 발표를 기다릴까요 아니면 주변 상황을 보고 판단할까요?", "gold_id": "HP20230403_T_P0178_T023.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0048", "query": "초기 → 중기 → 장기 대응의 각 단계별 중점 사항은 무엇입니까?", "gold_id": "UJ20220304_T_P0106_T200.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0049", "query": "화두 차단과 측면 방어선 구축 중 무엇을 우선해야 합니까?", "gold_id": "UJ20220304_T_P0199_T090.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0050", "query": "현재 대응 수준 유지와 상위 단계 격상 중 무엇이 적절합니까?", "gold_id": "GN20220305_T_P0056_T074.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0051", "query": "산불이 어느 방향으로 퍼지고 있습니까?", "gold_id": "YW20220304_T_P0106_T093.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0052", "query": "만약 풍향이 남서쪽으로 바뀐다면 추가 대피가 필요한 지역은 어디입니까?", "gold_id": "KS20230402_T_P0119_T026.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0053", "query": "대피할 때 꼭 가져가야 할 물품은 무엇입니까?", "gold_id": "BH20220405_T_P0026_T103.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0054", "query": "현재 진화율로 볼 때 24시간 내 완전 진압 확률은 얼마입니까?", "gold_id": "BH20220405_T_P0041_T123.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0055", "query": "야간에 시야가 제한된다면 구조 작업을 계속 진행해도 안전합니까?", "gold_id": "SC20250321_T_P0046_T283.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0056", "query": "1차 대피구역 철수 완료 후 2차 대피구역 진입까지의 단계별 절차는 어떻게 됩니까?", "gold_id": "YW20220304_T_P0078_T090.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0057", "query": "현재 진화 속도로 6시간 내 진압 완료 가능성은 얼마입니까?", "gold_id": "SC20230320_T_P0026_T011.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0058", "query": "현재 상황이 3단계 재난으로 확대될 가능성은 얼마입니까?", "gold_id": "GJ20240618_T_P0015_T029.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0059", "query": "이재민 발생 예상 규모와 필요 지원 물자는 얼마나 됩니까?", "gold_id": "UJ20220304_T_P0257_T139.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
+{"qid": "auto_0060", "query": "산불 시작부터 우리 동네까지 어떤 경로로 확산됩니까?", "gold_id": "KH20250322_T_P0023_T127.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0061", "query": "장비, 인력, 기상 조건을 종합한 최단 진압 시나리오는 무엇입니까?", "gold_id": "KH20250322_T_P0010_T038.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0062", "query": "개인 차량으로 대피하는 것과 대피 버스를 기다리는 것 중 어느 것이 나을까요?", "gold_id": "UJ20220304_T_P0222_T026.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0063", "query": "현재 동원 가능한 예비 인력과 장비는 얼마나 됩니까?", "gold_id": "SC20230403_T_P0067_T026.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0064", "query": "야간에 기온이 하락하면 진화 효율이 얼마나 향상됩니까?", "gold_id": "SC20250321_T_P0046_T369.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0065", "query": "현재 진화 작업이 계획대로 진행될 확률은 얼마입니까?", "gold_id": "GN20220305_T_P0010_T027.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0066", "query": "지금 당장 대피해야 하나요 아니면 좀 더 상황을 지켜봐도 될까요?", "gold_id": "YW20220304_T_P0046_T035.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0067", "query": "현재 기상 조건이 구조 작업에 미치는 영향은 어느 정도입니까?", "gold_id": "GW20230402_T_P0093_T002.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0068", "query": "야간에 기온이 하락하면 진화 효율이 얼마나 향상됩니까?", "gold_id": "UJ20220304_T_P0127_T107.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0069", "query": "진화 후 24시간 내 재대피가 필요할 가능성은 얼마입니까?", "gold_id": "KS20230402_T_P0178_T012.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0070", "query": "현재 동원 가능한 예비 인력과 장비는 얼마나 됩니까?", "gold_id": "UJ20220304_T_P0208_T166.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0071", "query": "동쪽 마을과 서쪽 마을 중 피해 위험이 더 높은 곳은 어디입니까?", "gold_id": "SC20230403_T_P0081_T026.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0072", "query": "연료 습도가 10% 이하로 떨어지면 확산 속도가 얼마나 증가합니까?", "gold_id": "YW20220304_T_P0055_T108.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0073", "query": "현재 기상 조건이 구조 작업에 미치는 영향은 어느 정도입니까?", "gold_id": "HN20230228_T_P0061_T017.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0074", "query": "통신이 두절된다면 고립 지역 주민들과의 연락 방법은 무엇입니까?", "gold_id": "OC20230402_T_P0029_T006.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
+{"qid": "auto_0075", "query": "능선 진화와 계곡 진화 중 안전성이 높은 것은 무엇입니까?", "gold_id": "GN20220305_T_P0113_T071.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0076", "query": "주민 불안 해소를 위한 정보 공개와 혼란 방지를 위한 제한적 공개 중 무엇을 선택해야 합니까?", "gold_id": "BH20220405_T_P0033_T027.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0077", "query": "자발적 대피 권고와 강제 대피 명령 중 현 상황에 적합한 것은 무엇입니까?", "gold_id": "GN20220305_T_P0073_T015.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0078", "query": "기상 악화가 예보된다면 대응 단계를 상향해야 합니까?", "gold_id": "IJ20250426_T_P0035_T005.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0079", "query": "이재민 발생 예상 규모와 필요 지원 물자는 얼마나 됩니까?", "gold_id": "SC20230318_T_P0019_T013.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0080", "query": "기상 악화 → 확산 가속 → 긴급 대피까지의 대응 시나리오는 무엇입니까?", "gold_id": "SJ20230316_T_P0005_T014.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0081", "query": "산불이 도심지까지 확산된다면 대응 체계는 어떻게 전환됩니까?", "gold_id": "KS20230402_T_P0340_T009.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0082", "query": "현재 동원 가능한 예비 인력과 장비는 얼마나 됩니까?", "gold_id": "YW20220304_T_P0008_T164.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0083", "query": "지형과 기상 조건을 고려하면 재발화 위험은 얼마나 됩니까?", "gold_id": "GN20220305_T_P0017_T002.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0084", "query": "완전 진화 확인 후 언제 정상화 선언이 가능합니까?", "gold_id": "GJ20220302_T_P0030_T072.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0085", "query": "헬기 구조와 지상 구조 중 현재 상황에서 더 효율적인 방법은 무엇입니까?", "gold_id": "GN20220305_T_P0109_T009.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0086", "query": "대피 방송을 들은 후 어떤 순서로 행동해야 합니까?", "gold_id": "JS20250221_T_P0009_T008.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0087", "query": "경제적 손실 최소화와 안전 최우선 정책 중 무엇을 택해야 합니까?", "gold_id": "KH20250322_T_P0011_T074.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0088", "query": "구조 헬기가 1대만 운용 가능하다면 우선 구조 지역은 어디입니까?", "gold_id": "HC20230330_T_P0054_T010.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0089", "query": "초기 진압 → 본진압 → 잔불 정리의 각 단계별 투입 인력은 어떻게 배치합니까?", "gold_id": "SJ20230316_T_P0009_T075.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
+{"qid": "auto_0090", "query": "산불이 어느 방향으로 퍼지고 있습니까?", "gold_id": "KH20250322_T_P0024_T050.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0091", "query": "만약 대피로가 차단된다면 대체 구조 방안은 무엇입니까?", "gold_id": "SC20250321_T_P0029_T449.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0092", "query": "능선 진화와 계곡 진화 중 안전성이 높은 것은 무엇입니까?", "gold_id": "PC20250313_T_P0019_T003.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0093", "query": "신속한 대피와 충분한 대피 물품 준비 중 어느 것을 우선해야 합니까?", "gold_id": "GN20220305_T_P0166_T109.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0094", "query": "진화 진행 상황과 확산 속도를 고려한 안전한 구조 가능 시간은 언제까지입니까?", "gold_id": "US20250322_T_P0002_T102.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0095", "query": "지연제를 살포한다면 확산 속도가 얼마나 감소합니까?", "gold_id": "GN20220304_T_P0026_T018.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0096", "query": "산불이 도심지까지 확산된다면 대응 체계는 어떻게 전환됩니까?", "gold_id": "UJ20220304_T_P0107_T136.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0097", "query": "대피소 설치 → 운영 → 폐쇄까지의 행정 처리 절차는 어떻게 됩니까?", "gold_id": "UJ20220304_T_P0075_T033.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0098", "query": "경사도를 고려할 때 3시간 내 전 주민 대피 완료 가능성은 얼마나 됩니까?", "gold_id": "KH20250322_T_P0027_T066.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0099", "query": "잔불 정리가 필요한 구역의 면적은 얼마나 됩니까?", "gold_id": "HP20230403_T_P0438_T019.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0100", "query": "현재 산불 확산으로 피해 위험성이 있는 높은 지역의 주민들이 가장 가까운 대피소에 도달하는데 걸리는 시간은 얼마입니까?", "gold_id": "HP20230403_T_P0439_T010.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0101", "query": "집에 있는 물건을 챙길 시간이 있을까요 아니면 바로 나가야 할까요?", "gold_id": "PC20230318_T_P0025_T014.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0102", "query": "오늘 밤에 바람이 더 강해진다면 어떻게 해야 합니까?", "gold_id": "UJ20220304_T_P0216_T158.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0103", "query": "우리 동네가 산불 피해를 입을 확률은 얼마나 됩니까?", "gold_id": "PC20230330_T_P0028_T069.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0104", "query": "오늘 밤까지 진화가 완료될 가능성은 얼마나 됩니까?", "gold_id": "HC20230330_T_P0044_T018.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
+{"qid": "auto_0105", "query": "산불이 주거지역 2km 이내 접근 시 대피령 발령이 필요합니까?", "gold_id": "BH20220405_T_P0049_T083.json", "size": "", "do": "", "query_subject": "확산경로", "kind": "auto_known_item"}
+{"qid": "auto_0106", "query": "제한된 구조 인력으로 요양원과 어린이집 중 어디를 우선 대피시켜야 합니까?", "gold_id": "UJ20220304_T_P0008_T038.json", "size": "", "do": "", "query_subject": "피해예상", "kind": "auto_known_item"}
+{"qid": "auto_0107", "query": "우리 집까지 불이 오면 얼마나 빨리 대피해야 합니까?", "gold_id": "YW20220304_T_P0012_T069.json", "size": "", "do": "", "query_subject": "대피전략", "kind": "auto_known_item"}
+{"qid": "auto_0108", "query": "진화대원 안전 확보와 신속한 진압 중 무엇을 우선해야 합니까?", "gold_id": "DJ20230402_T_P0074_T008.json", "size": "", "do": "", "query_subject": "진화벙법", "kind": "auto_known_item"}
+{"qid": "auto_0109", "query": "능선 진화와 계곡 진화 중 안전성이 높은 것은 무엇입니까?", "gold_id": "GN20220304_T_P0022_T021.json", "size": "", "do": "", "query_subject": "대응전략", "kind": "auto_known_item"}
+{"qid": "auto_0110", "query": "추가 확산 없이 현 상태에서 진압될 가능성은 얼마입니까?", "gold_id": "PC20230330_T_P0037_T015.json", "size": "", "do": "", "query_subject": "진화방법", "kind": "auto_known_item"}
+{"qid": "auto_0111", "query": "현재 산불 확산으로 피해 위험성이 있는 높은 지역의 주민들이 가장 가까운 대피소에 도달하는데 걸리는 시간은 얼마입니까?", "gold_id": "DJ20230402_T_P0046_T015.json", "size": "", "do": "", "query_subject": "진입가능", "kind": "auto_known_item"}
+{"qid": "auto_0112", "query": "주민 불안 해소를 위한 정보 공개와 혼란 방지를 위한 제한적 공개 중 무엇을 선택해야 합니까?", "gold_id": "UJ20220304_T_P0225_T160.json", "size": "", "do": "", "query_subject": "피혜예상", "kind": "auto_known_item"}
+{"qid": "auto_0113", "query": "취약계층 대피 → 일반 주민 대피 → 가축 이동의 순서별 소요 시간은 어떻게 됩니까?", "gold_id": "GJ20220302_T_P0024_T050.json", "size": "", "do": "", "query_subject": "제확산", "kind": "auto_known_item"}
+{"qid": "auto_0114", "query": "직접 진압과 간접 진압 중 현재 상황에 적합한 방법은 무엇입니까?", "gold_id": "BH20220405_T_P0049_T005.json", "size": "", "do": "", "query_subject": "재확산", "kind": "auto_known_item"}
+{"qid": "auto_0115", "query": "만약 대피로가 차단된다면 대체 구조 방안은 무엇입니까?", "gold_id": "BH20220405_T_P0044_T064.json", "size": "", "do": "", "query_subject": "진화", "kind": "auto_known_item"}
+{"qid": "auto_0116", "query": "현재 진화 작업이 계획대로 진행될 확률은 얼마입니까?", "gold_id": "GN20220305_T_P0039_T151.json", "size": "", "do": "", "query_subject": "도달시간", "kind": "auto_known_item"}
+{"qid": "auto_0117", "query": "지금 속도로 산불이 계속 번진다면 몇 시간 후에 위험해집니까?", "gold_id": "GW20230402_T_P0051_T036.json", "size": "", "do": "", "query_subject": "확산속도", "kind": "auto_known_item"}
+{"qid": "auto_0118", "query": "집을 지키는 것과 안전한 곳으로 대피하는 것 중 무엇이 현명할까요?", "gold_id": "YW20220304_T_P0037_T033.json", "size": "", "do": "", "query_subject": "우선순위", "kind": "auto_known_item"}
+{"qid": "auto_0119", "query": "우리 동네가 산불 피해를 입을 확률은 얼마나 됩니까?", "gold_id": "GJ20220302_T_P0021_T056.json", "size": "", "do": "", "query_subject": "자원배분", "kind": "auto_known_item"}
