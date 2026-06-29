@@ -18,9 +18,10 @@ result.txt
 progress.log
 
 # 재생성 가능한 대용량(버킷이 원본) — 색인 입력·산출은 GCS로
-rag_units.jsonl
+rag_units*.jsonl
 corpus_dl/
 idx_*/
+rag_index/
 
 # 포트폴리오·복기 문서는 로컬만(USER 선호) — knowledge/ 미게시
 knowledge/

@@ -33,7 +33,13 @@ python build_rag_index.py rag_units.jsonl --out idx_full --device cuda \
 - `scripts/build_index_compare.py` — 압축 비교용(이번 오진 때 만듦; 정형데이터엔 불필요했음. 다른 데이터셋엔 재사용 가능).
 - `Building-Infra/agents/orc/handlers_retriever.py` + `specs.py`의 `RETRIEVE` — orc 세 번째 인스턴스(질의→검색→LLM근거응답). 검증: `RAG_OFFLINE=1 SLICE_OFFLINE=1 python -m orc.run retrieve`(배선·차단기), `SLICE_OFFLINE=1 …`(실검색+스텁응답).
 
-**다음 후보(미정·하나씩):** ①주제 정확도 ↑(주제 오타 통일·헤더 핵심어 보강) ②원본 71921 재다운로드해 수치 조건(날씨·지형)까지 헤더에 포함 ③외부 RAG 코퍼스 7종(실지식)이 검색에 더 맞는지 비교 ④orc retriever에 실 LLM 키 연결·근거 본문(rag_units) 주입으로 답변 풍부화 ⑤색인 영구 보관 경로(현재 실모드 index_dir=/tmp/idx_full는 휘발).
+**다음 작업 — 우선순위(하나씩):**
+1. ~~★최우선 — 색인 영구 보관.~~ **완료(2026-06-29).** 색인 1GB를 고정 경로 `~/Documents/Pred-FirefromElec/rag_index/idx_full`로 내려받음(휘발 /tmp 폐기). RETRIEVE spec `index_dir`을 이 경로로 변경 + `gcs_index` 추가 → 폴더 휘발 시 `handlers_retriever._ensure_index`가 버킷에서 자동 재다운로드. 검증: `SLICE_OFFLINE=1 python3.12 -m orc.run retrieve` 실검색 5건 적중, 연료 일치 5/5·주제 '우선순위' 3/5. 무과금.
+2. ~~orc 실제 답변 완성.~~ **완료(2026-06-29).** 실 키(`CLAUDE_KEY`, scripts/.env, git 미게시) 연결 + 사례 본문(rag_units.jsonl 2.6GB 버킷서 받음) 근거 주입. 코드: `handlers_retriever._load_bodies`(검색 id로 본문 text 조회, 조기종료) + `_rag_answer`가 hits에 text 붙여 LLM 전달, `llm.py` rag_answer 프롬프트 본문 우선 인용·근거부족 명시, `specs.py` definition에 `corpus` 추가. 검증: 실 LLM이 혼효림+고풍속 질의에 '주거지 우선' 답+본문 인용+출처 id+관광지근거는 '검색 근거 부족' 표기. ⚠ **`python -m orc.run` 통짜 실행은 매 실행 BGE-m3 2GB+faiss 1GB 재로딩 → 맥 저메모리 시 스왑 경합으로 멈춤**(코드 아닌 자원 문제). llm.py에 timeout=60·max_retries=2 가드 추가. 검색(1순위)·답변 분리 검증. LLM 호출 ~수센트.
+3. ~~주제 정확도 ↑.~~ **완료(2026-06-29).** 오타 3쌍 통일(피혜예상→피해예상, 제확산→재확산, 진화벙법→진화방법) — `build_rag_units.py`의 SUBJ_FIX 맵. v2 재색인에 반영.
+4. ~~수치 조건 포함.~~ **완료(2026-06-29).** 원본 71921 라벨링(Training+Validation 28zip, 버킷서 받음)에서 L0_context 수치(풍속·습도·기온·경사·고도·가뭄·화염장) 추출해 헤더에 추가. ⚠ Training은 W/T/O 축약키, Validation은 weather_conditions 전체키 → 두 스키마 호환 처리해야 수치 100% 채움(처음 88.9%→고침). `build_rag_units.extract_conditions` + `build_rag_index.py` casehdr에 `| 조건:` + case_meta에 conditions. GPU L4(us-central1-b, STOCKOUT로 zone순회) 24.7만 재임베딩 ~10분 $≈0.3, 자동삭제. 새 색인=`gs://constgx_electrofire/rag_index/full_v2/idx_full`, 로컬 `rag_index/idx_full_v2`. RETRIEVE spec을 v2로 승격(index_dir·gcs_index·corpus=rag_units_v2). 검증: '급경사·고온' 질의에 첫 결과 경사31도·기온19도로 정합(단 임베딩 숫자추론 약해 개선폭은 modest, 핵심이득=수치가 근거에 노출).
+5. **외부 코퍼스 7종 비교.** 합성 데이터(71921) 대신 실지식 코퍼스(물성·발화·확산)가 검색에 더 맞는지 점검. 방향 재검토.
+6. **평가셋 보강.** 손으로 쓴 패러프레이즈 시험셋(`eval_curated` 비어 있음)으로 품질 측정 신뢰도 ↑.
 
 ---
 

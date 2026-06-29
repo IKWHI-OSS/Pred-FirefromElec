@@ -57,10 +57,13 @@ def iter_chunks(path, chunking, limit=None):
                 if text.strip():
                     yield text, cid
             elif chunking == "casehdr":
-                # 케이스당 글 하나 = 메타 헤더(연료/주제/유형/목적) + 질문 첫 줄.
+                # 케이스당 글 하나 = 메타 헤더(연료/주제/유형/목적 + 수치조건) + 질문 첫 줄.
                 # 메타를 본문에 넣어 케이스가 구별되게 함(검색 정확도 ↑). 조각이 케이스 수로 급감.
                 hdr = (f"연료유형: {u.get('fuel_type','')} | 주제: {u.get('query_subject','')} | "
                        f"질문유형: {u.get('query_type','')} | 목적: {u.get('query_purpose','')}")
+                cond = u.get("conditions", "")
+                if cond:
+                    hdr += f" | 조건: {cond}"      # 날씨·지형 수치(풍속·습도·기온·경사·고도 등) — 케이스 구별력 ↑
                 first = text.split("\n", 1)[0].strip()
                 yield f"{hdr}\n{first}", cid
             else:
@@ -72,7 +75,7 @@ def iter_chunks(path, chunking, limit=None):
 
 def iter_case_meta(path, limit=None):
     """case_id별 메타데이터(임베딩 대상 아님 — 검색결과 표시용)."""
-    META = ("do", "query_purpose", "query_subject", "query_type", "fuel_type", "size")
+    META = ("do", "query_purpose", "query_subject", "query_type", "fuel_type", "size", "conditions")
     n = 0
     with open(path, encoding="utf-8") as f:
         for line in f:

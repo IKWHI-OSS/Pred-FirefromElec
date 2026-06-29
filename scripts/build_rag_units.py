@@ -43,6 +43,48 @@ def collect_nl(node, out):
         if len(s) >= 15 and HANGUL.search(s):
             out.append(s)
 
+def _num(v):
+    """숫자면 보기 좋은 문자열(불필요한 소수 0 제거), 아니면 None."""
+    try:
+        f = float(v)
+    except (TypeError, ValueError):
+        return None
+    return str(int(f)) if f == int(f) else str(round(f, 1))
+
+def extract_conditions(info):
+    """L0_context의 결정 핵심 수치(풍속·습도·기온·경사·고도·가뭄·화염장)를 짧은 한글 줄로.
+    케이스 구별력을 위해 헤더에 넣는다(임베딩 NL 본문에선 L0_context는 여전히 제외)."""
+    ctx = {}
+    def find_ctx(n):
+        if ctx or not isinstance(n, (dict, list)): return
+        if isinstance(n, dict):
+            if "L0_context" in n and isinstance(n["L0_context"], dict):
+                ctx.update(n["L0_context"]); return
+            for v in n.values(): find_ctx(v)
+        else:
+            for v in n: find_ctx(v)
+    find_ctx(info)
+    if not ctx: return ""
+    # 두 스키마 호환: Training=W/T/O 축약, Validation=weather_conditions/... 전체이름.
+    def grp(*names):
+        for nm in names:
+            v = ctx.get(nm)
+            if isinstance(v, dict): return v
+        return {}
+    W = grp("W", "weather_conditions")
+    T = grp("T", "terrain_conditions")
+    O = grp("O", "occurrence_status")
+    parts = []
+    for label, val, unit in [
+        ("풍속", W.get("wind_speed"), "m/s"), ("습도", W.get("humidity_percent"), "%"),
+        ("기온", W.get("temperature"), "도"), ("경사", T.get("slope"), "도"),
+        ("고도", T.get("elevation"), "m"),
+        ("가뭄", O.get("drought_duration_days") or O.get("drought_days") or W.get("drought_days"), "일"),
+        ("화염장", O.get("flame_length"), "m")]:
+        s = _num(val)
+        if s is not None: parts.append(f"{label} {s}{unit}")
+    return ", ".join(parts)
+
 def parse_case(obj):
     info = obj.get("labelling_data_info", obj)
     q = info.get("query", {}) if isinstance(info, dict) else {}
@@ -68,8 +110,11 @@ def parse_case(obj):
         else:
             for v in n: find_fuel(v)
     find_fuel(info)
-    meta = {"query_purpose": q.get("query_purpose", ""), "query_subject": q.get("query_subject", ""),
-            "query_type": q.get("query_type", ""), "fuel_type": fuel_type}
+    SUBJ_FIX = {"피혜예상": "피해예상", "제확산": "재확산", "진화벙법": "진화방법"}  # 오타 통일(3순위)
+    subj = q.get("query_subject", "")
+    meta = {"query_purpose": q.get("query_purpose", ""), "query_subject": SUBJ_FIX.get(subj, subj),
+            "query_type": q.get("query_type", ""), "fuel_type": fuel_type,
+            "conditions": extract_conditions(info)}      # 수치 조건(헤더용)
     return text, meta
 
 def size_do_from_name(name):
